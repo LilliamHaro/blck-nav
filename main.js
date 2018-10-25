@@ -6,6 +6,7 @@ $(document).ready(function() {
     $(".container-bg").toggleClass("container-bg-expand");
     setTimeout(function() {
           $(".container-bg").toggleClass("nav-transition-out");
+          $('.container-bg ul li').toggleClass('container-bg-ul-li-close')
         }, 800);
     $(".container-bg ul li").toggleClass("nav-ul-li-showed");
   });

@@ -162,6 +162,9 @@
 .container-bg ul li:nth-child(8) {
   transition-delay: 0.9s;
 }
+.container-bg-ul-li-close {
+  transition-delay: 0s!important;
+}
 .nav-ul-li-showed {
   opacity: 1!important;
   transform: translateX(0px)!important;
