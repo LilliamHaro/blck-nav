@@ -12,7 +12,6 @@ $(document).ready(function() {
   });
 });
 
-
 setTimeout(function() {
   $(".slider-3").addClass("impar");
 }, 1500);
